@@ -21,10 +21,7 @@ namespace simpleRPGv22
         {
             Console.Write("Robie zmiane");
 
-            Console.Write("Robie wiecej zmian elo");
-
-            Console.Write("robie duzo duzo duzo zmian");
-            
+           //zmieniam dla Dawida
                
         }
     }
