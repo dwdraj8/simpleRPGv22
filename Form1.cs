@@ -24,5 +24,26 @@ namespace simpleRPGv22
            //zmieniam dla Dawida
                
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            Form wyborKlasy = new frmWyborKlasy();
+            wyborKlasy.Closed += (s, args) => this.Close();
+            wyborKlasy.Show();
+
+            
+        }
+
+        private void btnQuit_click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
