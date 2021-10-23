@@ -19,7 +19,13 @@ namespace simpleRPGv22
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Console.Write("Robie zmiane");        
+            Console.Write("Robie zmiane");
+
+            Console.Write("Robie wiecej zmian elo");
+
+            Console.Write("robie duzo duzo duzo zmian");
+            
+               
         }
     }
 }
