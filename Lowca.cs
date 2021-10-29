@@ -6,48 +6,49 @@ using System.Threading.Tasks;
 
 namespace simpleRPGv22
 {
-    class Wojownik : klasaPostaci
+    class Lowca : klasaPostaci
     {
         // konstruktory
-        public Wojownik()
+        public Lowca()
         {
 
         }
-        public Wojownik(string name)
+
+        public Lowca(string name)
         {
             CharName = name;
 
-            CharHp = 500;
+            CharHp = 400;
 
-            CharMp = 100;
+            CharMp = 200;
 
             CharLvl = 1;
 
             CharLp = 1;
 
-            CharStr = 10;
+            CharStr = 7;
 
             CharInt = 4;
 
-            CharDex = 7;
+            CharDex = 10;
 
             SkillAvailable = false;
 
             SkillLearned = false;
         }
 
-        // metody :
+
+        // metody
 
         public override void doBasicAttack()
         {
-            
+
         }
 
         public override void useSkill()
         {
-            
-        }
 
+        }
 
     }
 }

@@ -6,28 +6,29 @@ using System.Threading.Tasks;
 
 namespace simpleRPGv22
 {
-    class Wojownik : klasaPostaci
+    class Mag : klasaPostaci
     {
         // konstruktory
-        public Wojownik()
+        public Mag()
         {
 
         }
-        public Wojownik(string name)
+
+        public Mag(string name)
         {
             CharName = name;
 
-            CharHp = 500;
+            CharHp = 250;
 
-            CharMp = 100;
+            CharMp = 350;
 
             CharLvl = 1;
 
             CharLp = 1;
 
-            CharStr = 10;
+            CharStr = 4;
 
-            CharInt = 4;
+            CharInt = 10;
 
             CharDex = 7;
 
@@ -36,18 +37,15 @@ namespace simpleRPGv22
             SkillLearned = false;
         }
 
-        // metody :
-
+        // metody
         public override void doBasicAttack()
         {
-            
+
         }
 
         public override void useSkill()
         {
-            
+
         }
-
-
     }
 }
