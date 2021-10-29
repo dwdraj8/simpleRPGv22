@@ -8,6 +8,7 @@ namespace simpleRPGv22
 {
     class Mag : klasaPostaci
     {
+        // konstruktory
         public Mag()
         {
 
@@ -34,6 +35,17 @@ namespace simpleRPGv22
             SkillAvailable = false;
 
             SkillLearned = false;
+        }
+
+        // metody
+        public override void doBasicAttack()
+        {
+
+        }
+
+        public override void useSkill()
+        {
+
         }
     }
 }

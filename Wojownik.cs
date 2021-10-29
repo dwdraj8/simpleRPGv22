@@ -8,7 +8,7 @@ namespace simpleRPGv22
 {
     class Wojownik : klasaPostaci
     {
-
+        // konstruktory
         public Wojownik()
         {
 
@@ -35,5 +35,19 @@ namespace simpleRPGv22
 
             SkillLearned = false;
         }
+
+        // metody :
+
+        public override void doBasicAttack()
+        {
+            
+        }
+
+        public override void useSkill()
+        {
+            
+        }
+
+
     }
 }
