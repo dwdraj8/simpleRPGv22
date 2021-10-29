@@ -63,6 +63,26 @@ namespace simpleRPGv22.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3a85bfd04a6034dac7cbf80c94aa4405 {
+            get {
+                object obj = ResourceManager.GetObject("3a85bfd04a6034dac7cbf80c94aa4405", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3a85bfd04a6034dac7cbf80c94aa44051 {
+            get {
+                object obj = ResourceManager.GetObject("3a85bfd04a6034dac7cbf80c94aa44051", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnExit {
             get {
                 object obj = ResourceManager.GetObject("btnExit", resourceCulture);
