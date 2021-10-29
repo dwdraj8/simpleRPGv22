@@ -45,5 +45,10 @@ namespace simpleRPGv22
         {
             this.Close();
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }
