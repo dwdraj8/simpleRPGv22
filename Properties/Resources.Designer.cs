@@ -93,9 +93,49 @@ namespace simpleRPGv22.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap btnExit_not_pressed {
+            get {
+                object obj = ResourceManager.GetObject("btnExit_not_pressed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnExit_pressed {
+            get {
+                object obj = ResourceManager.GetObject("btnExit_pressed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnSTART {
             get {
                 object obj = ResourceManager.GetObject("btnSTART", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnStart_not_pressedv5 {
+            get {
+                object obj = ResourceManager.GetObject("btnStart_not_pressedv5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnStart_pressed {
+            get {
+                object obj = ResourceManager.GetObject("btnStart_pressed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -15,14 +15,16 @@ namespace simpleRPGv22
         public Form1()
         {
             InitializeComponent();
+            btnStart.MouseEnter += new EventHandler(btnStart_MouseEnter);
+            btnStart.MouseLeave += new EventHandler(btnStart_MouseLeave);
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             Console.Write("Robie zmiane");
+            btnStart.BackgroundImage = simpleRPGv22.Properties.Resources.btnStart_not_pressedv5;
+            btnExit.BackgroundImage = simpleRPGv22.Properties.Resources.btnExit_not_pressed;
 
-           //zmieniam dla Dawida
-               
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -54,6 +56,26 @@ namespace simpleRPGv22
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnStart_MouseLeave(object sender, EventArgs e)
+        {
+            this.btnStart.BackgroundImage = simpleRPGv22.Properties.Resources.btnStart_not_pressedv5;
+        }
+
+        private void btnStart_MouseEnter(object sender, EventArgs e)
+        {
+            this.btnStart.BackgroundImage = simpleRPGv22.Properties.Resources.btnStart_pressed;
+        }
+
+        private void btnExit_MouseLeave(object sender, EventArgs e)
+        {
+            this.btnExit.BackgroundImage = simpleRPGv22.Properties.Resources.btnExit_not_pressed;
+        }
+
+        private void btnExit_MouseEnter(object sender, EventArgs e)
+        {
+            this.btnExit.BackgroundImage = simpleRPGv22.Properties.Resources.btnExit_pressed;
         }
     }
 }

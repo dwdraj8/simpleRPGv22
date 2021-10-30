@@ -160,4 +160,16 @@
   <data name="worrior_avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\worrior_avatar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="btnExit_not_pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnExit_not_pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnExit_pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnExit_pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnStart_not_pressedv5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnStart_not_pressedv5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnStart_pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnStart_pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
