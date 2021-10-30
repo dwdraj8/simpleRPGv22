@@ -34,11 +34,11 @@ namespace simpleRPGv22
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
+            pnlCreator.Visible = true;
 
-            Form wyborKlasy = new frmWyborKlasy();
-            wyborKlasy.Closed += (s, args) => this.Close();
-            wyborKlasy.Show();
+           
+
 
             
         }
@@ -76,6 +76,16 @@ namespace simpleRPGv22
         private void btnExit_MouseEnter(object sender, EventArgs e)
         {
             this.btnExit.BackgroundImage = simpleRPGv22.Properties.Resources.btnExit_pressed;
+        }
+
+        private void btnArrowLeft_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnArrowRight_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

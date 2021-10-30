@@ -34,8 +34,24 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.imgLogo = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pnlCreator = new System.Windows.Forms.Panel();
+            this.imgStr = new System.Windows.Forms.PictureBox();
+            this.imgDex = new System.Windows.Forms.PictureBox();
+            this.imgInt = new System.Windows.Forms.PictureBox();
+            this.imgMp = new System.Windows.Forms.PictureBox();
+            this.imgHP = new System.Windows.Forms.PictureBox();
+            this.imgChooseString = new System.Windows.Forms.PictureBox();
+            this.btnArrowRight = new System.Windows.Forms.Button();
+            this.btnArrowLeft = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pnlCreator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgStr)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgDex)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgInt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgMp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgHP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgChooseString)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -111,6 +127,115 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
+            // pnlCreator
+            // 
+            this.pnlCreator.BackgroundImage = global::simpleRPGv22.Properties.Resources.thumb_1920_478555;
+            this.pnlCreator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlCreator.Controls.Add(this.imgStr);
+            this.pnlCreator.Controls.Add(this.imgDex);
+            this.pnlCreator.Controls.Add(this.imgInt);
+            this.pnlCreator.Controls.Add(this.imgMp);
+            this.pnlCreator.Controls.Add(this.imgHP);
+            this.pnlCreator.Controls.Add(this.imgChooseString);
+            this.pnlCreator.Controls.Add(this.btnArrowRight);
+            this.pnlCreator.Controls.Add(this.btnArrowLeft);
+            this.pnlCreator.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlCreator.Location = new System.Drawing.Point(0, 0);
+            this.pnlCreator.Name = "pnlCreator";
+            this.pnlCreator.Size = new System.Drawing.Size(939, 662);
+            this.pnlCreator.TabIndex = 5;
+            this.pnlCreator.Visible = false;
+            // 
+            // imgStr
+            // 
+            this.imgStr.BackColor = System.Drawing.Color.Transparent;
+            this.imgStr.Image = global::simpleRPGv22.Properties.Resources.imgStr;
+            this.imgStr.Location = new System.Drawing.Point(419, 464);
+            this.imgStr.Name = "imgStr";
+            this.imgStr.Size = new System.Drawing.Size(100, 50);
+            this.imgStr.TabIndex = 7;
+            this.imgStr.TabStop = false;
+            // 
+            // imgDex
+            // 
+            this.imgDex.BackColor = System.Drawing.Color.Transparent;
+            this.imgDex.Image = global::simpleRPGv22.Properties.Resources.imgDex;
+            this.imgDex.Location = new System.Drawing.Point(582, 464);
+            this.imgDex.Name = "imgDex";
+            this.imgDex.Size = new System.Drawing.Size(100, 50);
+            this.imgDex.TabIndex = 6;
+            this.imgDex.TabStop = false;
+            // 
+            // imgInt
+            // 
+            this.imgInt.BackColor = System.Drawing.Color.Transparent;
+            this.imgInt.Image = global::simpleRPGv22.Properties.Resources.imgInt;
+            this.imgInt.Location = new System.Drawing.Point(741, 464);
+            this.imgInt.Name = "imgInt";
+            this.imgInt.Size = new System.Drawing.Size(100, 50);
+            this.imgInt.TabIndex = 5;
+            this.imgInt.TabStop = false;
+            // 
+            // imgMp
+            // 
+            this.imgMp.BackColor = System.Drawing.Color.Transparent;
+            this.imgMp.Image = global::simpleRPGv22.Properties.Resources.imgMp;
+            this.imgMp.Location = new System.Drawing.Point(255, 464);
+            this.imgMp.Name = "imgMp";
+            this.imgMp.Size = new System.Drawing.Size(100, 50);
+            this.imgMp.TabIndex = 4;
+            this.imgMp.TabStop = false;
+            // 
+            // imgHP
+            // 
+            this.imgHP.BackColor = System.Drawing.Color.Transparent;
+            this.imgHP.Image = global::simpleRPGv22.Properties.Resources.imgHP;
+            this.imgHP.Location = new System.Drawing.Point(102, 464);
+            this.imgHP.Name = "imgHP";
+            this.imgHP.Size = new System.Drawing.Size(100, 50);
+            this.imgHP.TabIndex = 3;
+            this.imgHP.TabStop = false;
+            // 
+            // imgChooseString
+            // 
+            this.imgChooseString.BackColor = System.Drawing.Color.Transparent;
+            this.imgChooseString.Image = global::simpleRPGv22.Properties.Resources.charCreatorString_good;
+            this.imgChooseString.Location = new System.Drawing.Point(102, 12);
+            this.imgChooseString.Name = "imgChooseString";
+            this.imgChooseString.Size = new System.Drawing.Size(739, 84);
+            this.imgChooseString.TabIndex = 2;
+            this.imgChooseString.TabStop = false;
+            // 
+            // btnArrowRight
+            // 
+            this.btnArrowRight.BackColor = System.Drawing.Color.Transparent;
+            this.btnArrowRight.FlatAppearance.BorderSize = 0;
+            this.btnArrowRight.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnArrowRight.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnArrowRight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnArrowRight.Image = global::simpleRPGv22.Properties.Resources.imgChooseArrowRight;
+            this.btnArrowRight.Location = new System.Drawing.Point(666, 375);
+            this.btnArrowRight.Name = "btnArrowRight";
+            this.btnArrowRight.Size = new System.Drawing.Size(80, 47);
+            this.btnArrowRight.TabIndex = 1;
+            this.btnArrowRight.UseVisualStyleBackColor = false;
+            this.btnArrowRight.Click += new System.EventHandler(this.btnArrowRight_Click);
+            // 
+            // btnArrowLeft
+            // 
+            this.btnArrowLeft.BackColor = System.Drawing.Color.Transparent;
+            this.btnArrowLeft.FlatAppearance.BorderSize = 0;
+            this.btnArrowLeft.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnArrowLeft.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnArrowLeft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnArrowLeft.Image = global::simpleRPGv22.Properties.Resources.imgChooseArrow;
+            this.btnArrowLeft.Location = new System.Drawing.Point(164, 375);
+            this.btnArrowLeft.Name = "btnArrowLeft";
+            this.btnArrowLeft.Size = new System.Drawing.Size(80, 47);
+            this.btnArrowLeft.TabIndex = 0;
+            this.btnArrowLeft.UseVisualStyleBackColor = false;
+            this.btnArrowLeft.Click += new System.EventHandler(this.btnArrowLeft_Click);
+            // 
             // Form1
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
@@ -120,6 +245,7 @@
             this.BackgroundImage = global::simpleRPGv22.Properties.Resources.thumb_1920_478555;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(939, 662);
+            this.Controls.Add(this.pnlCreator);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.imgLogo);
             this.Controls.Add(this.btnExit);
@@ -133,6 +259,13 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.pnlCreator.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.imgStr)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgDex)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgInt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgMp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgHP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgChooseString)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -145,6 +278,15 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.PictureBox imgLogo;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel pnlCreator;
+        private System.Windows.Forms.Button btnArrowRight;
+        private System.Windows.Forms.Button btnArrowLeft;
+        private System.Windows.Forms.PictureBox imgChooseString;
+        private System.Windows.Forms.PictureBox imgHP;
+        private System.Windows.Forms.PictureBox imgStr;
+        private System.Windows.Forms.PictureBox imgDex;
+        private System.Windows.Forms.PictureBox imgInt;
+        private System.Windows.Forms.PictureBox imgMp;
     }
 }
 

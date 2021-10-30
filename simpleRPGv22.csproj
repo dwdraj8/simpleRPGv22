@@ -136,6 +136,15 @@
     <None Include="Resources\worrior_avatar.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\imgInt.png" />
+    <None Include="Resources\imgDex.png" />
+    <None Include="Resources\imgStr.png" />
+    <None Include="Resources\imgMp.png" />
+    <None Include="Resources\imgHP.png" />
+    <None Include="Resources\charCreatorString_good.png" />
+    <None Include="Resources\charCreatorString.png" />
+    <None Include="Resources\imgChooseArrowRight.png" />
+    <None Include="Resources\imgChooseArrow.png" />
     <None Include="Resources\btnExit_pressed.png" />
     <None Include="Resources\btnExit_not_pressed.png" />
     <Content Include="Resources\btnStart_not_pressedv5.png" />
