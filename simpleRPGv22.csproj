@@ -111,5 +111,35 @@
   <ItemGroup>
     <None Include="Resources\3a85bfd04a6034dac7cbf80c94aa44051.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb-1920-478555.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mage2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mage_220x272.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\worrior_242x276.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mage3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\worrior_avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnExit_pressed.png" />
+    <None Include="Resources\btnExit_not_pressed.png" />
+    <Content Include="Resources\btnStart_not_pressedv5.png" />
+    <Content Include="Resources\btnStart_pressed.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -118,22 +118,58 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnExit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tlo_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tlo_scroll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="worrior_242x276" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\worrior_242x276.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mage2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="3a85bfd04a6034dac7cbf80c94aa4405" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3a85bfd04a6034dac7cbf80c94aa4405.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logo_weii" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo_weii.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btnSTART" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnSTART.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="3a85bfd04a6034dac7cbf80c94aa44051" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3a85bfd04a6034dac7cbf80c94aa44051.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnExit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tlo_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tlo_scroll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mage_220x272" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mage_220x272.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_weii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_weii.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thumb-1920-478555" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumb-1920-478555.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mage1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mage3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="worrior_avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\worrior_avatar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnExit_not_pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnExit_not_pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnExit_pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnExit_pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnStart_not_pressedv5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnStart_not_pressedv5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnStart_pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnStart_pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
