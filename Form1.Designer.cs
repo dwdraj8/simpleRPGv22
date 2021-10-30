@@ -35,6 +35,11 @@
             this.imgLogo = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlCreator = new System.Windows.Forms.Panel();
+            this.lblInt = new System.Windows.Forms.Label();
+            this.lblStr = new System.Windows.Forms.Label();
+            this.lblDex = new System.Windows.Forms.Label();
+            this.lblHp = new System.Windows.Forms.Label();
+            this.lblMp = new System.Windows.Forms.Label();
             this.imgStr = new System.Windows.Forms.PictureBox();
             this.imgDex = new System.Windows.Forms.PictureBox();
             this.imgInt = new System.Windows.Forms.PictureBox();
@@ -43,6 +48,8 @@
             this.imgChooseString = new System.Windows.Forms.PictureBox();
             this.btnArrowRight = new System.Windows.Forms.Button();
             this.btnArrowLeft = new System.Windows.Forms.Button();
+            this.imgAvatarMage = new System.Windows.Forms.PictureBox();
+            this.imgAvatarWarrior = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlCreator.SuspendLayout();
@@ -52,6 +59,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.imgMp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgHP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgChooseString)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgAvatarMage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgAvatarWarrior)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -131,6 +140,11 @@
             // 
             this.pnlCreator.BackgroundImage = global::simpleRPGv22.Properties.Resources.thumb_1920_478555;
             this.pnlCreator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlCreator.Controls.Add(this.lblInt);
+            this.pnlCreator.Controls.Add(this.lblStr);
+            this.pnlCreator.Controls.Add(this.lblDex);
+            this.pnlCreator.Controls.Add(this.lblHp);
+            this.pnlCreator.Controls.Add(this.lblMp);
             this.pnlCreator.Controls.Add(this.imgStr);
             this.pnlCreator.Controls.Add(this.imgDex);
             this.pnlCreator.Controls.Add(this.imgInt);
@@ -139,12 +153,72 @@
             this.pnlCreator.Controls.Add(this.imgChooseString);
             this.pnlCreator.Controls.Add(this.btnArrowRight);
             this.pnlCreator.Controls.Add(this.btnArrowLeft);
+            this.pnlCreator.Controls.Add(this.imgAvatarWarrior);
+            this.pnlCreator.Controls.Add(this.imgAvatarMage);
             this.pnlCreator.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlCreator.Location = new System.Drawing.Point(0, 0);
             this.pnlCreator.Name = "pnlCreator";
             this.pnlCreator.Size = new System.Drawing.Size(939, 662);
             this.pnlCreator.TabIndex = 5;
             this.pnlCreator.Visible = false;
+            this.pnlCreator.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlCreator_Paint);
+            // 
+            // lblInt
+            // 
+            this.lblInt.AutoSize = true;
+            this.lblInt.BackColor = System.Drawing.Color.Transparent;
+            this.lblInt.Font = new System.Drawing.Font("Niagara Solid", 36F, System.Drawing.FontStyle.Bold);
+            this.lblInt.Location = new System.Drawing.Point(745, 527);
+            this.lblInt.Name = "lblInt";
+            this.lblInt.Size = new System.Drawing.Size(93, 51);
+            this.lblInt.TabIndex = 14;
+            this.lblInt.Text = "label5";
+            // 
+            // lblStr
+            // 
+            this.lblStr.AutoSize = true;
+            this.lblStr.BackColor = System.Drawing.Color.Transparent;
+            this.lblStr.Font = new System.Drawing.Font("Niagara Solid", 36F, System.Drawing.FontStyle.Bold);
+            this.lblStr.Location = new System.Drawing.Point(425, 527);
+            this.lblStr.Name = "lblStr";
+            this.lblStr.Size = new System.Drawing.Size(91, 51);
+            this.lblStr.TabIndex = 13;
+            this.lblStr.Text = "label4";
+            // 
+            // lblDex
+            // 
+            this.lblDex.AutoSize = true;
+            this.lblDex.BackColor = System.Drawing.Color.Transparent;
+            this.lblDex.Font = new System.Drawing.Font("Niagara Solid", 36F, System.Drawing.FontStyle.Bold);
+            this.lblDex.Location = new System.Drawing.Point(585, 527);
+            this.lblDex.Name = "lblDex";
+            this.lblDex.Size = new System.Drawing.Size(93, 51);
+            this.lblDex.TabIndex = 12;
+            this.lblDex.Text = "label3";
+            // 
+            // lblHp
+            // 
+            this.lblHp.AutoSize = true;
+            this.lblHp.BackColor = System.Drawing.Color.Transparent;
+            this.lblHp.Font = new System.Drawing.Font("Niagara Solid", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHp.Location = new System.Drawing.Point(105, 527);
+            this.lblHp.Name = "lblHp";
+            this.lblHp.Size = new System.Drawing.Size(0, 51);
+            this.lblHp.TabIndex = 11;
+            this.lblHp.Paint += new System.Windows.Forms.PaintEventHandler(this.lblHp_Paint);
+            // 
+            // lblMp
+            // 
+            this.lblMp.AutoSize = true;
+            this.lblMp.BackColor = System.Drawing.Color.Transparent;
+            this.lblMp.Font = new System.Drawing.Font("Niagara Solid", 36F, System.Drawing.FontStyle.Bold);
+            this.lblMp.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblMp.Location = new System.Drawing.Point(260, 527);
+            this.lblMp.Name = "lblMp";
+            this.lblMp.Size = new System.Drawing.Size(88, 51);
+            this.lblMp.TabIndex = 10;
+            this.lblMp.Text = "label1";
+            this.lblMp.Paint += new System.Windows.Forms.PaintEventHandler(this.lblMp_Paint);
             // 
             // imgStr
             // 
@@ -220,6 +294,8 @@
             this.btnArrowRight.TabIndex = 1;
             this.btnArrowRight.UseVisualStyleBackColor = false;
             this.btnArrowRight.Click += new System.EventHandler(this.btnArrowRight_Click);
+            this.btnArrowRight.MouseEnter += new System.EventHandler(this.btnArrowRight_MouseEnter);
+            this.btnArrowRight.MouseLeave += new System.EventHandler(this.btnArrowRight_MouseLeave);
             // 
             // btnArrowLeft
             // 
@@ -235,6 +311,29 @@
             this.btnArrowLeft.TabIndex = 0;
             this.btnArrowLeft.UseVisualStyleBackColor = false;
             this.btnArrowLeft.Click += new System.EventHandler(this.btnArrowLeft_Click);
+            this.btnArrowLeft.MouseEnter += new System.EventHandler(this.btnArrowLeft_MouseEnter);
+            this.btnArrowLeft.MouseLeave += new System.EventHandler(this.btnArrowLeft_MouseLeave);
+            // 
+            // imgAvatarMage
+            // 
+            this.imgAvatarMage.BackColor = System.Drawing.Color.Transparent;
+            this.imgAvatarMage.Image = global::simpleRPGv22.Properties.Resources.imgMageAvatar;
+            this.imgAvatarMage.Location = new System.Drawing.Point(394, 276);
+            this.imgAvatarMage.Name = "imgAvatarMage";
+            this.imgAvatarMage.Size = new System.Drawing.Size(150, 168);
+            this.imgAvatarMage.TabIndex = 9;
+            this.imgAvatarMage.TabStop = false;
+            this.imgAvatarMage.Visible = false;
+            // 
+            // imgAvatarWarrior
+            // 
+            this.imgAvatarWarrior.BackColor = System.Drawing.Color.Transparent;
+            this.imgAvatarWarrior.Image = global::simpleRPGv22.Properties.Resources.imgWorriorAvatar;
+            this.imgAvatarWarrior.Location = new System.Drawing.Point(394, 276);
+            this.imgAvatarWarrior.Name = "imgAvatarWarrior";
+            this.imgAvatarWarrior.Size = new System.Drawing.Size(150, 168);
+            this.imgAvatarWarrior.TabIndex = 8;
+            this.imgAvatarWarrior.TabStop = false;
             // 
             // Form1
             // 
@@ -260,12 +359,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlCreator.ResumeLayout(false);
+            this.pnlCreator.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgStr)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgDex)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgInt)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgMp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgHP)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgChooseString)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgAvatarMage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgAvatarWarrior)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -287,6 +389,13 @@
         private System.Windows.Forms.PictureBox imgDex;
         private System.Windows.Forms.PictureBox imgInt;
         private System.Windows.Forms.PictureBox imgMp;
+        private System.Windows.Forms.PictureBox imgAvatarMage;
+        private System.Windows.Forms.PictureBox imgAvatarWarrior;
+        private System.Windows.Forms.Label lblInt;
+        private System.Windows.Forms.Label lblStr;
+        private System.Windows.Forms.Label lblDex;
+        private System.Windows.Forms.Label lblHp;
+        private System.Windows.Forms.Label lblMp;
     }
 }
 

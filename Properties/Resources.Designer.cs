@@ -83,6 +83,26 @@ namespace simpleRPGv22.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap btnArrowLeftPressed {
+            get {
+                object obj = ResourceManager.GetObject("btnArrowLeftPressed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnArrowRightPressed {
+            get {
+                object obj = ResourceManager.GetObject("btnArrowRightPressed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnExit {
             get {
                 object obj = ResourceManager.GetObject("btnExit", resourceCulture);
@@ -213,6 +233,16 @@ namespace simpleRPGv22.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imgMageAvatar {
+            get {
+                object obj = ResourceManager.GetObject("imgMageAvatar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imgMp {
             get {
                 object obj = ResourceManager.GetObject("imgMp", resourceCulture);
@@ -226,6 +256,16 @@ namespace simpleRPGv22.Properties {
         internal static System.Drawing.Bitmap imgStr {
             get {
                 object obj = ResourceManager.GetObject("imgStr", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgWorriorAvatar {
+            get {
+                object obj = ResourceManager.GetObject("imgWorriorAvatar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
