@@ -53,13 +53,17 @@
             // 
             // btnStart
             // 
+            this.btnStart.AccessibleRole = System.Windows.Forms.AccessibleRole.Pane;
             this.btnStart.BackColor = System.Drawing.Color.Transparent;
-            this.btnStart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnStart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnStart.CausesValidation = false;
             this.btnStart.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.btnStart.FlatAppearance.BorderSize = 0;
+            this.btnStart.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnStart.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(202)))), ((int)(((byte)(202)))));
             this.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStart.Image = ((System.Drawing.Image)(resources.GetObject("btnStart.Image")));
-            this.btnStart.Location = new System.Drawing.Point(306, 349);
+            this.btnStart.Location = new System.Drawing.Point(306, 240);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(270, 75);
             this.btnStart.TabIndex = 1;
@@ -70,18 +74,21 @@
             // 
             this.btnExit.BackColor = System.Drawing.Color.Transparent;
             this.btnExit.FlatAppearance.BorderSize = 0;
+            this.btnExit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnExit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(202)))), ((int)(((byte)(202)))));
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.ForeColor = System.Drawing.Color.Transparent;
             this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
-            this.btnExit.Location = new System.Drawing.Point(306, 240);
+            this.btnExit.Location = new System.Drawing.Point(306, 409);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(270, 75);
+            this.btnExit.Size = new System.Drawing.Size(270, 67);
             this.btnExit.TabIndex = 2;
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnQuit_click);
             // 
             // imgLogo
             // 
+            this.imgLogo.BackColor = System.Drawing.Color.Transparent;
             this.imgLogo.Image = global::simpleRPGv22.Properties.Resources.logo_weii;
             this.imgLogo.Location = new System.Drawing.Point(820, 12);
             this.imgLogo.Name = "imgLogo";
@@ -102,9 +109,11 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::simpleRPGv22.Properties.Resources.tlo_scroll;
+            this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackgroundImage = global::simpleRPGv22.Properties.Resources.thumb_1920_478555;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(939, 662);
             this.Controls.Add(this.pictureBox1);
