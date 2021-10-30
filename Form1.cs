@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace simpleRPGv22
@@ -34,6 +35,8 @@ namespace simpleRPGv22
         {
 
         }
+
+       
 
         private void btnStart_Click(object sender, EventArgs e)
         {
@@ -102,6 +105,8 @@ namespace simpleRPGv22
         {
             if (imgAvatarWarrior.Visible)
             {
+                
+
                 imgAvatarMage.Visible = true;
 
                 imgAvatarWarrior.Visible = false;
@@ -109,22 +114,22 @@ namespace simpleRPGv22
 
                 lblHp.Text = "250";
 
+               
 
                 lblMp.Text = "350";
 
                 
-
                 lblStr.Text = "4";
-
                 
+
 
                 lblDex.Text = "7";
-
                 
+
 
                 lblInt.Text = "10";
 
-
+                
 
             }
             else if (imgAvatarMage.Visible)
@@ -186,6 +191,19 @@ namespace simpleRPGv22
             btnArrowRight.Image = simpleRPGv22.Properties.Resources.imgChooseArrowRight;
         }
 
-       
+        private void lblMp_paint(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblMp_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void imgHP_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
